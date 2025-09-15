@@ -16,18 +16,5 @@ int arr[5]={1,8,9,6,5};
      }
      printf("max no =%d\n",max);
 
-//    if(a>b && b<a){
-//     printf("%d",a);
-//    }
-//    else if(b>a && a<b){
-//     printf("%d",b);
-//    }
-// int arr[5]={1,2,3};
-// int sum = 0;
-// for(int i=0;i<3;i++){
-//     sum = sum+arr[i];
-
-// }
-//  printf("%d",sum);
     return 0;
 }
