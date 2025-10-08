@@ -12,3 +12,4 @@
 	<code><img width="50" src="https://raw.githubAbhishekGupta0164/marwin1991/profile-technology-icons/refs/heads/main/icons/c.png" alt="C" title="C"/></code>
 	<code><img width="50" src="https://raw.githubAbhishekGupta0164/marwin1991/profile-technology-icons/refs/heads/main/icons/c++.png" alt="C++" title="C++"/></code>
 </div>
+### Technology
