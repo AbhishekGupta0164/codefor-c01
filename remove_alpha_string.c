@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-// remove repeating alphabet in a word
+// remove repeating alphabet in a  word
 int main()
 {    char str[] = "hello";
     char target = 'l';
