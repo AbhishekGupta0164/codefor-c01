@@ -1,48 +1,50 @@
 #include <stdio.h>
-#include <limits.h>
 
+// Brute force method
+int maxArraySumBrute(int arr[], int n, int k) {
+    int maxSum = 0;
+    for (int i = 0; i <= n - k; i++) {
+        int sum = 0;
+        for (int j = 0; j < k; j++) {
+            sum += arr[i + j];
+        }
+        if (sum > maxSum) {
+            maxSum = sum;
+        }
+    }
+    return maxSum;
+}
 
-
-int main(){
 // Sliding window method
-"",,                                                               axArraywSum(int arr[], int n, int k) {
-//     int wSum = 0;
-//     for (int i = 0; i < k; i++) {
-//         wSum += arr[i];
-//     }
-
-    //    int maxSum = wSum;
-
-//     for (int j = k; j < n; j++) {
-//         wSum = wSum + arr[j] - arr[j - k];
-//         if (wSum > maxSum) {
-//             maxSum = wSum;
-//         }
-//     }
-
-//     return maxSum;
-// }
-
-int main() {
-    int arr[7] = {1,8,5,4,1,6,7,2,3,9};   // only one array
-    int k = 2 ,n ;
-    int wsum,msum
-     for (int i = 0; i < k; i++) {
+int maxArraySumWindow(int arr[], int n, int k) {
+    int wSum = 0;
+    // sum of first k elements
+    for (int i = 0; i < k; i++) {
         wSum += arr[i];
     }
-     for (int i = k; i < n; i++) {
-        wSum += arr[i]-arr[i-k];
-        if(wSum>mSum){
-            mSum=wSum;
+
+    int maxSum = wSum;
+
+    // slide the window
+    for (int i = k; i < n; i++) {
+        wSum = wSum + arr[i] - arr[i - k];
+        if (wSum > maxSum) {
+            maxSum = wSum;
         }
-
-
     }
 
-printf("%d",mSum);
-    int n = sizeof(arr) / sizeof(arr[0]);
+    return maxSum;
+}
 
+int main() {
+    int arr[] = {1, 8, 5, 4, 1, 6, 9};   // array
+    int k = 2;
+    int n = sizeof(arr) / sizeof(arr[0]);  // initialize n
+
+    // Using brute force
     int bruteAns = maxArraySumBrute(arr, n, k);
+
+    // Using sliding window
     int windowAns = maxArraySumWindow(arr, n, k);
 
     printf("Brute Force Result = %d\n", bruteAns);
@@ -50,8 +52,4 @@ printf("%d",mSum);
 
     return 0;
 }
-
-
-// }
-
 
