@@ -16,7 +16,6 @@
   <img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/main/icons/c++.png" alt="C++" title="C++"/>
   <img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/main/icons/javascript.png" alt="JavaScript" title="JavaScript"/>
   <img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/main/icons/react.png" alt="React" title="React"/>
-
   <img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/main/icons/github.png" alt="GitHub" title="GitHub"/>
   <img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/main/icons/linux.png" alt="Linux" title="Linux"/>
 </div>
@@ -25,7 +24,8 @@
 
 ### 🌱 Currently Learning
 - Advanced **Data Structures & Algorithms**
-- **Full Stack Web Development** (React, Node.js, MongoDB)
+- Learning C++
+- **Full Stack Web Development** (HTML,CSS,JAVASCRIPT)
 - Competitive Programming & Problem Solving
 
 ---
