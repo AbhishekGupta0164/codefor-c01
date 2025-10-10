@@ -15,11 +15,8 @@
   <img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/main/icons/c.png" alt="C" title="C"/>
   <img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/main/icons/c++.png" alt="C++" title="C++"/>
   <img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/main/icons/javascript.png" alt="JavaScript" title="JavaScript"/>
-  <img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/main/icons/python.png" alt="Python" title="Python"/>
   <img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/main/icons/react.png" alt="React" title="React"/>
-  <img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/main/icons/nodejs.png" alt="Node.js" title="Node.js"/>
-  <img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/main/icons/mongodb.png" alt="MongoDB" title="MongoDB"/>
-  <img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/main/icons/git.png" alt="Git" title="Git"/>
+
   <img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/main/icons/github.png" alt="GitHub" title="GitHub"/>
   <img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/main/icons/linux.png" alt="Linux" title="Linux"/>
 </div>
